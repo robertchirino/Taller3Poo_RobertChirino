@@ -1,3 +1,9 @@
+
+
+//Robert Chirino - 21.370.498-2
+
+
+
 package logica;
 
 import dominio.*;
@@ -89,7 +95,7 @@ public class SistemaMagosImpl implements ISistemaMagos {
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("Hechizos.txt"))) {
             for (Hechizo h : listaHechizos) {
-                bw.write(h.toTxtFormat());
+                bw.write(h.toString());
                 bw.newLine();
             }
         } catch (IOException e) {

@@ -1,3 +1,8 @@
+
+
+//Robert Chirino - 21.370.498-2
+
+
 package main;
 
 import logica.ISistemaMagos;
@@ -150,7 +155,7 @@ public class Main {
 					} else {
 						System.out.println("Error: No se encontro al mago especificado.");
 					}
-					break;
+					break;	
 
 				case 4:
 					Hechizo nuevoHechizo = capturarDatosHechizo(scanner);

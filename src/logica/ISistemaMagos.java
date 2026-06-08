@@ -1,8 +1,15 @@
+
+
+//Robert Chirino - 21.370.498-2
+
+
+
 package logica;
 
 import dominio.Mago;
 import dominio.Hechizo;
 import java.util.List;
+
 
 public interface ISistemaMagos {
     // Carga de Archivos

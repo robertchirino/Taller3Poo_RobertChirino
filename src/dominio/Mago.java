@@ -1,3 +1,9 @@
+
+
+//Robert Chirino - 21.370.498-2
+
+
+
 package dominio;
 
 import java.util.ArrayList;
@@ -23,4 +29,5 @@ public class Mago {
         }
         return total;
     }
+
 }

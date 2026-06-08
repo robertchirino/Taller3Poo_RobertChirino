@@ -1,3 +1,8 @@
+
+
+//Robert Chirino - 21.370.498-2
+
+
 package dominio;
 
 public class HechizoFuego extends Hechizo {
@@ -17,7 +22,7 @@ public class HechizoFuego extends Hechizo {
     }
 
     @Override
-    public String toTxtFormat() {
+    public String toString() {
         return getNombre() + ";" + getTipo() + ";" + getDaño() + ";" + this.duracionQuemadura;
     }
 }

@@ -1,3 +1,8 @@
+
+
+//Robert Chirino - 21.370.498-2
+
+
 package dominio;
 
 public abstract class Hechizo {
@@ -19,5 +24,6 @@ public abstract class Hechizo {
 
     public abstract int calcularPuntuacion();
 
-    public abstract String toTxtFormat();
+    public abstract String toString();
+
 }
